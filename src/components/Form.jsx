@@ -9,8 +9,8 @@ import emailjs from "@emailjs/browser";
 import FormGroup from "./FormGroup";
 
 function Form() {
-  const [showAlert, setShowAlert] = useState();
-  const [success, setSuccess] = useState();
+  const [showAlert, setShowAlert] = useState(false);
+  const [success, setSuccess] = useState(false);
   const [verified, setVerified] = useState(true);
 
   const navigate = useNavigate();
